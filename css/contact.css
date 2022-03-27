@@ -75,6 +75,12 @@ form input, textarea {
     color: var(--color-white);
 }
 
+.contact__form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
 /* ================ MEDIA QUERIES  ================== */
 /* ================ TABLETS ================== */
 
@@ -115,7 +121,7 @@ form input, textarea {
         margin: 0 1.5rem 3rem;
     }
 
-    form input, textarea {
+    .contact__form-inputs > * {
         margin-top: 1rem;
     }
 }
