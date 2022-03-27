@@ -121,7 +121,7 @@ form input, textarea {
         margin: 0 1.5rem 3rem;
     }
 
-    .contact__form-inputs > * {
+    .contact__form-inputs > *, .contact__form .buttons {
         margin-top: 1rem;
     }
 }
